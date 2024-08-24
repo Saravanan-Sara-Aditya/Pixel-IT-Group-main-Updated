@@ -1,10 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const ImageWithSkeleton = ({ src, alt = "", style = {}, className = "" }) => {
     const [loading, setLoading] = useState(true);
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            if (imageLoaded) {
+                setLoading(false);
+            }
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, [imageLoaded]);
 
     const handleImageLoad = () => {
-        setLoading(false); // Set loading to false once the image is fully loaded
+        setImageLoaded(true);
+        if (Date.now() >= performance.timing.navigationStart + 5000) {
+            setLoading(false);
+        }
     };
 
     return (
