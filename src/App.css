@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glassmorphism-bg {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/Navigation.jpg');
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+.glassmorphism-bg-1 {
+  position: relative;
+  background-image: linear-gradient(to right, rgba(158, 7, 120, 0.5), rgba(37, 26, 192, 0.7));
+  background-size: cover;
+  background-position: center;
+
+}
+
+.glassmorphism-bg-2 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/MP.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.glassmorphism-bg-3 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/MobileApp.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.glassmorphism-bg-4 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://media.istockphoto.com/id/1488298008/photo/young-businessman-chatting-with-a-smart-ai-or-artificial-intelligence-using-an-artificial.jpg?s=612x612&w=0&k=20&c=ZPd9mkDEn2r_RseQFzkPWLdz1rCWvG_ZT1qACmDjwKw=');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.glassmorphism-bg-5 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/Java.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.glassmorphism-bg-6 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/cloud-services.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.glassmorphism-bg-7 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/Utilities.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.glassmorphism-bg-8 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/og.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.glassmorphism-bg-9 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('./assets/images/Telecom.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.glassmorphism-bg-10 {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://media.istockphoto.com/id/523262976/photo/about-us-concept-with-alphabet-blocks.jpg?b=1&s=612x612&w=0&k=20&c=CeeT5Xf17WptWZifaLayhb50pwXzdg6d6Vmxl-dW7Ak=');
+  background-size: cover;
+  background-position: center;
+}
+
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.2) !important;
+  /* Adjust transparency here */
+  backdrop-filter: blur(10px) !important;
+  /* Adjust blur intensity here */
+  border-radius: 15px !important;
+  padding: 20px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+
+body {
+  background: whitesmoke !important;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.glow:hover {
+  color: #000 !important;
+  transition: all 0.5s;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("./assets/images/bars-solid.svg") !important;
+
+}
+
+.navbar {
+  --falcon-navbar-padding-y: none !important;
+  --falcon-navbar-padding-x: none !important;
+}
+
+
+
+.card-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #219bda;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-overlay p {
+  color: #fff;
+  margin-top: 25%;
+  font-size: 20px;
+}
+
+.card-container:hover .card-overlay {
+  display: block;
+}
+
+
+
+.theme-text {
+  color: #219bda !important;
+}
+
+.lead {
+  color: #000 !important;
+}
+
+.card-title {
+  color: #fff !important;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+/*  */
+
+.skeleton-loader {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%; /* Adjust background size to make the movement smoother */
+  animation: loading 1.5s ease-in-out infinite; /* Apply ease-in-out for smoother animation */
+}
+
+@keyframes loading {
+  0% {
+      background-position: 200% 0;
+  }
+  100% {
+      background-position: -200% 0;
+  }
+}
