@@ -17,12 +17,15 @@ const ITSecurity = () => {
             <section class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
                 <div class="bg-holder overlay bg-img-lnd"></div>
                 <div class="">
-                    <div data-aos="fade-left" style={{ height: "100vh" }} class="row flex-center pt-8 pt-lg-8 pb-lg-9 pb-xl-0 bg-white">
-                        <div class="col-md-11 col-lg-8 col-xl-12 pb-7 pb-xl-5 text-center text-xl-start">
+                    <div
+                        data-aos="fade-left"
+                        className="row justify-content-center align-items-center pt-8 pt-lg-5 bg-dark"
+                        style={{ minHeight: "100vh" }}
+                    >    <div>
                             <h1 data-aos="fade" class="theme-text container fw-bold">
                                 Infrastructure Security
                             </h1>
-                            <p data-aos="fade" class="lead container text-capitalize text-start ">
+                            <p data-aos="fade" class="lead text-white container text-capitalize text-start ">
                                 We specialize in safeguarding your infrastructure against attacks and ensuring the protection of sensitive data from exposure or leaks. Our services include deploying various hardware firewalls and implementing optimal configurations to secure your infrastructure effectively. We provide the following hardware devices, backed by long-term support and expertise:
                                 <span className='d-block mt-2 mb-0'>
 

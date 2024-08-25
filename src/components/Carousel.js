@@ -3,7 +3,7 @@ import videoSource from '../assets/images/Bg_Video.mp4';
 
 const slides = [
   {
-    caption: 'Pixel IT Group',
+    // caption: 'Pixel IT Group',
   },
   // Add more slides if needed
 ];

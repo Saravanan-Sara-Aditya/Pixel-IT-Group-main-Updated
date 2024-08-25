@@ -55,7 +55,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <section id='about' class=" glasmorphism-bg-10 pt-2 pb-5 white__bg-opacity-50">
+            <section id='about' class=" glasmorphism-bg-10 pt-2  white__bg-opacity-50">
                 {/* <Container> */}
                 <Row className="pt-3  m-2">
                     <h1 className="fw-bold mt-3 mb-3 theme-text" data-aos="zoom-in">ABOUT US</h1>
@@ -76,7 +76,7 @@ const Home = () => {
                     </Col>
                 </Row>
                 {/* </Container> */}
-                <div class="bg-all pt-2 pb-5 white__bg-opacity-50">
+                <div class="bg-all pt-2  white__bg-opacity-50">
                     <Container>
                         <h1 data-aos="zoom-out" class="fw-bold mt-3 text-end d-lg-block d-none text-uppercase mb-3 theme-text">Our Mission</h1>
                         <h1 data-aos="zoom-out" class="fw-bold mt-3 text-start d-lg-none d-block text-uppercase mb-3 theme-text">Our Mission</h1>
